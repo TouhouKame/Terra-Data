@@ -1,0 +1,19 @@
+{
+  "name": "endoexomap",
+  "version": "1.0.0",
+  "description": "Map application displaying data for each country",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-optimize"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "Simon Craggs McLean",
+  "license": "ISC",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "parcel": "^2.12.0"
+  }
+}
