@@ -39,16 +39,14 @@ header {
   margin: 0;
 }
 
-.right-float {
-  position: fixed;
-  top: 20%;
+.display {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  z-index: 3;
   right: 30px;
-  transform: translateY(-50%);
-  z-index: 10;
-}
-
-.left {
-  left: 50%;
+  width: fit-content;
 }
 
 .description {
@@ -57,6 +55,7 @@ header {
   color: black;
   padding: 13px;
   width: 300px;
+  margin: 0.5rem;
 }
 
 #map {
@@ -70,20 +69,7 @@ header {
 .hidden {
   display: none;
 }
-.country {
-  cursor: pointer;
-}
 
-area {
-  background-color: rgb(30, 233, 30);
-}
-
-#endonyms,
-h2 h3 p {
+.description h2 h3 p {
   margin-bottom: 10px;
-}
-
-area:hover {
-  background-color: greenyellow;
-  z-index: 9;
 }
